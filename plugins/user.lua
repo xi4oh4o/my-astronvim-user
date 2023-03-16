@@ -30,5 +30,14 @@ return {
         ignore_linked_group = true, -- boolean: don't clear a group that links to another group
       })
     end
+  },
+  {
+    "kylechui/nvim-surround",
+    event = "BufRead",
+    config = function()
+        require("nvim-surround").setup({
+            -- Configuration here, or leave empty to use defaults
+        })
+    end
   }
 }
