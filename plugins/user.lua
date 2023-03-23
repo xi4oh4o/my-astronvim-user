@@ -10,6 +10,10 @@ return {
   --   end,
   -- },
   {
+    "mg979/vim-visual-multi",
+    event = "BufRead"
+  },
+  {
     "xiyaowong/nvim-transparent",
     event = "BufRead",
     config = function()
