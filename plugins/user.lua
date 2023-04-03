@@ -10,6 +10,10 @@ return {
   --   end,
   -- },
   {
+    "wakatime/vim-wakatime",
+    event = "BufRead"
+  },
+  {
     "mg979/vim-visual-multi",
     event = "BufRead"
   },
