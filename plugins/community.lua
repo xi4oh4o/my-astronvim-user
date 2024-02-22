@@ -8,5 +8,6 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.typescript" },
-  { import = "astrocommunity.motion.flash-nvim" }
+  { import = "astrocommunity.motion.flash-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" }
 }
